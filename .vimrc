@@ -9,6 +9,7 @@ set number
 set ruler
 
 set noerrorbells
+set belloff=all
 
 """
 ""Allow folding
