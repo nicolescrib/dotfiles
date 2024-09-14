@@ -124,3 +124,6 @@ fi
 
 # CS586 Databases Login Alias
 alias PSQL='psql -h dbclass.cs.pdx.edu -U sum2024adb0035 sum2024adb0035'
+
+# Use yyyy-mm-dd hh:mm format for time with ls -l
+export TIME_STYLE="long-iso"
