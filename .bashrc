@@ -127,3 +127,8 @@ alias PSQL='psql -h dbclass.cs.pdx.edu -U sum2024adb0035 sum2024adb0035'
 
 # Use yyyy-mm-dd hh:mm format for time with ls -l
 export TIME_STYLE="long-iso"
+
+# Git dotfiles repo update script
+if [ -f ~/scripts/update_dotfiles.sh ]; then
+    . ~/scripts/update_dotfiles.sh
+fi
