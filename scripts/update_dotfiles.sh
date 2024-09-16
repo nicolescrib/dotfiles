@@ -15,3 +15,5 @@ else
     echo "Local repository dotfiles is up to date."
 fi
 
+# return home
+cd
