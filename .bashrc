@@ -132,3 +132,8 @@ export TIME_STYLE="long-iso"
 if [ -f ~/scripts/update_dotfiles.sh ]; then
     . ~/scripts/update_dotfiles.sh
 fi
+
+# If this computer is Tome, add spicetify to path
+if [ "$(hostname)" = "Tome" ]; then
+	export PATH=$PATH:/home/nicole/.spicetify
+fi
