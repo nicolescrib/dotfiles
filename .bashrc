@@ -97,6 +97,7 @@ alias c='clear'
 alias cda='cd ~/Documents/Courses/CS302/Assignments'
 alias go='clear;g++ -std=c++17 *.cpp -g -Wall'
 alias back='cd -'
+alias cls='clear'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
