@@ -95,7 +95,7 @@ alias l='ls -CF'
 # my custom aliases
 alias c='clear'
 alias cda='cd ~/Documents/Courses/CS302/Assignments'
-alias go='clear;g++ -std=c++17 *.cpp -g -Wall'
+alias go='clear;g++ -std=c++17 *.cpp *.o -g -Wall'
 alias back='cd -'
 alias cls='clear'
 
